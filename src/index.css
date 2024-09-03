@@ -15,15 +15,16 @@ ul {
   margin: 0;
 }
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
-  height: 100%;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
+  font-family: 'JetBrains Mono', 'Courier New';
+  background-color: #2b2b2b;
+  color: #d4d4d4;
+  background-attachment: fixed;
+  min-height: 100vh;
 }

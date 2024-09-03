@@ -1,0 +1,65 @@
+.hero-section {
+  padding: 6rem 1.3rem 1rem 1.3rem;
+  display: flex;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.hero-text h1 {
+  font-size: 1.4rem;
+}
+
+.plain-text {
+  color: #d4d4d4;
+}
+
+.annotation {
+  color: #BBB529;
+}
+
+.comments {
+  color: #808080;
+}
+
+.keyword {
+  color: #CC7832;
+  font-weight: bold;
+}
+
+.constant {
+  color: #9876AA;
+  font-style: italic;
+}
+
+.java-docs {
+  color: #629755;
+}
+
+#typed-text {
+  border-right: 4px solid #d4d4d4;
+  animation: typing 4s steps(30, end), blink 1s step-end infinite;
+}
+
+.method {
+  color: #FFC66D;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

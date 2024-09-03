@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import {
   Route,
   createBrowserRouter,
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
   ), {basename})
 
 function App() {
+  
   return <RouterProvider router={router} />;
 }
 
