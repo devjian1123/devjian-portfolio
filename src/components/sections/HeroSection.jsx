@@ -83,7 +83,7 @@ const HeroSection = () => {
         <a href="https://github.com/devjian1123" target="_blank" rel="noopener noreferrer">
           <img className={styles['profile-link-img']} src={githubLogo} alt="GitHub Profile" />
         </a>
-        <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">
+        <a href="https://leetcode.com/u/devjian1123/" target="_blank" rel="noopener noreferrer">
           <img className={styles['profile-link-img']} src={leetcodeLogo} alt="Leetcode Profile" />
         </a>
       </div>
