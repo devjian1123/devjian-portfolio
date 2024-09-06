@@ -65,16 +65,18 @@ const HeroSection = () => {
   return (
     <section className={styles['hero-section']}>
       <div className={styles['hero-text']}>
-        <div className="annotation-container">
-          <p className={styles['annotation']}>@Junior</p>
-          <p className={styles['annotation']}>@BackEnd</p>
+        <div>
+          <div className={styles['annotation-container']}>
+            <p className={styles['annotation']}>@Junior</p>
+            <p className={styles['annotation']}>@BackEnd</p>
+          </div>
+
+          <h1>
+            <span ref={typedTextRef} id={styles['typed-text']}></span>
+          </h1>
         </div>
 
-        <h1>
-          <span ref={typedTextRef} id={styles['typed-text']}></span>
-        </h1>
-
-        <p className={styles['comments']}>
+        <p className={styles['comments', 'subheading']}>
           A <span className={styles['constant']}>BACK_END_WIZARD</span> Who <span className={styles['method']}>solves(</span><span className={styles['plain-text']}>problems</span><span className={styles['method']}>)</span> with <span className={styles.keyword}>flair</span>.
         </p>
 
