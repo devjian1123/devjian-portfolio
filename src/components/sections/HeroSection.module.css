@@ -1,6 +1,7 @@
 .hero-section {
   padding: 6rem 1.3rem 1rem 1.3rem;
   display: flex;
+  flex-direction: column;
 }
 
 .hero-text {
@@ -15,6 +16,19 @@
 
 .plain-text {
   color: #d4d4d4;
+}
+
+.hero-profile-links {
+  margin-top: 2rem;
+  display: flex;
+  white-space: wrap;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.profile-link-img {
+  width: 1.7rem;
+  height: 1.7rem;
 }
 
 .annotation {

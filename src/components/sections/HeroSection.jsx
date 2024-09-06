@@ -1,5 +1,8 @@
 import { useEffect, useRef } from 'react';
 import styles from './HeroSection.module.css';
+import githubLogo from '../../assets/images/profile-links/github-mark-white.svg'
+import leetcodeLogo from '../../assets/images/profile-links/leetcode-mark.png'
+
 
 const HeroSection = () => {
   const typedTextRef = useRef(null);
@@ -74,6 +77,15 @@ const HeroSection = () => {
         <p className={styles['comments']}>
           A <span className={styles['constant']}>BACK_END_WIZARD</span> Who <span className={styles['method']}>solves(</span><span className={styles['plain-text']}>problems</span><span className={styles['method']}>)</span> with <span className={styles.keyword}>flair</span>.
         </p>
+
+      </div>
+      <div className={styles['hero-profile-links']}>
+        <a href="https://github.com/devjian1123" target="_blank" rel="noopener noreferrer">
+          <img className={styles['profile-link-img']} src={githubLogo} alt="GitHub Profile" />
+        </a>
+        <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">
+          <img className={styles['profile-link-img']} src={leetcodeLogo} alt="Leetcode Profile" />
+        </a>
       </div>
     </section>
   );
