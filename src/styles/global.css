@@ -1,0 +1,28 @@
+.comments {
+  color: #808080;
+}
+
+.keyword {
+  color: #CC7832;
+  font-weight: bold;
+}
+
+.constant {
+  color: #9876AA;
+  font-style: italic;
+}
+
+.java-docs {
+  color: #629755;
+}
+
+.method {
+  color: #FFC66D;
+}
+
+.method-block-content {
+  white-space: pre-wrap;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.6rem;
+}

@@ -1,9 +1,12 @@
 import styles from './AboutSection.module.css'
+import MethodBlock from '../code-components/MethodBlock'
 
 const AboutSection = () => {
   return (
     <section className={styles['about-section']}>
-      <div className=''></div>
+      <MethodBlock accessModifier="public" returnType="String" methodName="about" params="DevJian me">
+        I'm Back-end Developer who solves problems.
+      </MethodBlock>
     </section>
   )
 }
